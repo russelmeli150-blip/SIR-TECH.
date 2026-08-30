@@ -1,0 +1,476 @@
+/*
+====================================
+STYLE GENERAL
+====================================
+*/
+
+
+*{
+
+    /* Supprime les marges automatiques */
+
+    margin:0;
+
+    padding:0;
+
+
+    /* Garde les dimensions correctes */
+
+    box-sizing:border-box;
+
+
+}
+
+
+body{
+
+
+    /* Police générale */
+
+    font-family:Arial, Helvetica, sans-serif;
+
+
+    /* Couleur du texte */
+
+    color:#333;
+
+
+    /* Couleur de fond */
+
+    background:#f5f7fa;
+
+
+}
+
+
+
+
+
+/*
+====================================
+HEADER
+====================================
+*/
+
+
+header{
+
+
+    /* Couleur du menu */
+
+    background:#005bea;
+
+
+    /* Met les éléments sur une ligne */
+
+    display:flex;
+
+
+    /* Sépare logo et menu */
+
+    justify-content:space-between;
+
+
+
+    /* Centre verticalement */
+
+    align-items:center;
+
+
+
+    /* Espace intérieur */
+
+    padding:20px 8%;
+
+
+
+    color:white;
+
+    /*stycker*/
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+
+}
+
+
+
+
+/* Logo */
+
+
+.logo{
+
+
+    font-size:32px;
+
+
+    font-weight:bold;
+
+
+}
+
+
+.logo span{
+
+
+    color:#ffe600;
+
+
+}
+
+
+
+
+
+
+/*
+====================================
+NAVIGATION
+====================================
+*/
+
+
+nav a{
+
+
+    color:white;
+
+
+    text-decoration:none;
+
+
+    margin-left:25px;
+
+
+    font-size:16px;
+
+
+}
+
+
+
+/* Effet souris */
+
+
+nav a:hover{
+
+
+    color:#ffe600;
+
+
+}
+
+
+
+
+/* Bouton connexion */
+
+
+.btn-login{
+
+
+    background:white;
+
+
+    color:#005bea;
+
+
+    padding:10px 20px;
+
+
+    border-radius:25px;
+
+
+}
+
+
+
+
+
+/*
+====================================
+SECTION HERO
+====================================
+*/
+
+
+.hero{
+
+
+    background:white;
+
+
+    padding:100px 10%;
+
+
+    text-align:center;
+
+
+}
+
+
+
+
+.hero h1{
+
+
+    font-size:45px;
+
+
+    color:#222;
+
+
+}
+
+
+
+.hero span{
+
+
+    color:#005bea;
+
+
+}
+
+
+
+
+.hero p{
+
+
+    font-size:18px;
+
+
+    color:#666;
+
+
+    max-width:700px;
+
+
+    margin:20px auto;
+
+
+    line-height:1.6;
+
+
+}
+
+
+
+
+/* Bouton principal */
+
+
+button{
+
+
+    background:#005bea;
+
+
+    color:white;
+
+
+    border:none;
+
+
+    padding:15px 35px;
+
+
+    border-radius:30px;
+
+
+    font-size:16px;
+
+
+    cursor:pointer;
+
+
+}
+
+
+
+
+button:hover{
+
+
+    background:#00c6fb;
+
+
+}
+
+
+
+
+
+
+
+
+/*
+====================================
+SECTION POURQUOI CHOISIR
+====================================
+*/
+
+
+.why{
+
+
+    padding:70px 8%;
+
+
+    text-align:center;
+
+
+}
+
+
+
+
+.why h2{
+
+
+    font-size:35px;
+
+
+    margin-bottom:40px;
+
+
+}
+
+
+
+.why span{
+
+
+    color:#005bea;
+
+
+}
+
+
+
+
+
+/* Conteneur des cartes */
+
+
+.cards{
+
+
+    display:flex;
+
+
+    justify-content:center;
+
+
+    gap:30px;
+
+
+}
+
+
+
+
+
+/* Carte */
+
+
+.card{
+
+
+    background:white;
+
+
+    width:300px;
+
+
+    padding:30px;
+
+
+    border-radius:15px;
+
+
+    box-shadow:0 5px 15px #ddd;
+
+
+}
+
+
+
+.card h3{
+
+
+    color:#005bea;
+
+
+    margin-bottom:15px;
+
+
+}
+
+
+
+.card p{
+
+
+    color:#666;
+
+
+    line-height:1.5;
+
+
+}
+
+
+
+
+
+
+/*
+====================================
+FOOTER
+====================================
+*/
+
+
+footer{
+
+
+    background:#222;
+
+
+    color:white;
+
+
+    text-align:center;
+
+
+    padding:30px;
+
+
+}
+
+
+
+footer h3{
+
+
+    color:#00c6fb;
+
+
+    margin-bottom:10px;
+
+
+}
+
+
+footer p{
+
+
+    margin:10px;
+
+
+}
